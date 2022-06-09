@@ -1,0 +1,54 @@
+.header-four{
+    .header-top-four{
+        background-color: #F0F2F5;
+
+        .header-top-left-four{
+            ul{
+                margin-left: 90px;
+                margin-top: 15px;
+                li{
+                    margin:0 30px;
+                    
+                    cursor: pointer;
+                    color: #666;
+                    transition: 0.2s ease-in-out;
+                    &:hover{
+                        color: #3858F6;
+                    }
+                }
+            }
+        }
+        .header-top-right-four{
+            margin-right: 160px;
+            a{
+                i{
+                    margin-left: 12px;
+                    color: black;
+                    transition: 0.2s ease-in-out;
+                    &:hover{
+                        color: #3858F6;
+                    }
+                }
+            }
+        }
+    }
+    .header-middle-four{
+        padding:20px 30px 5px 30px;
+        .header-left-four{
+            width: 11%;
+            display: flex;  
+            align-items: center;
+            
+        }
+    }
+    .blogar-four{
+        box-shadow: none;
+        margin-bottom: -70px;
+        .blogar-left-four{
+            margin-left: -150px;
+            .mega{
+                margin-left: 300px;
+            }
+        }
+    }
+}
